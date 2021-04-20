@@ -1,4 +1,23 @@
-.color-red {
+.horizontal-layout {
+  display: flex;
+  flex-direction: row;
+  border: 2px dotted olivedrab;
+  justify-content: space-between;
+}
+
+.underline-title {
+  text-decoration: underline solid black;
+}
+
+h2 {
+  text-decoration: underline dashed red;
+}
+
+li:hover {
+  font-size: 45px;
   color: red;
-  border: 3px dotted black;
+}
+
+li:first-child {
+  color: orange;
 }
